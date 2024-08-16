@@ -1,0 +1,144 @@
+\chapter{Preguntas tecnicas FullStack}
+\section{TDD}
+Es el desarrollo en base a pruebas.
+\section{Ajax}
+Tecnologia para hacer peticiones de manera asincrona.
+\section{div vs span}
+El div es un bloque donde se puede poner otros bloques
+en span esta limitado a elementos en una linea
+\section{Beneficios de SOLID}
+Codigo mantenible,facil de escalarlo con el tiempo,desacoplado,buenas practicas.
+\section{Verbos HTTP}
+POST Envio de informacion
+PUT Actualizacion total de un recurso
+GET Recuperar informacion
+DELETE Para eliminar un recurso
+PACTH Actualizacion parcial de un recurso
+OPTION Para otro tipo de operaciones
+\section{Codigos de respuesta HTTP}
+1XX
+2XX Operacion exitosa
+3XX
+4XX Error por parte del cliente
+5XX Error por parte del servidor
+\section{Como despliegas una aplicacion fullstack}
+De forma independiente se puede desplegar el backend y frontend.
+El backend en un servidor tradicional Jboss,Wildfly,usar un contenedor  y subirlo a un proveedor cloud.
+El frontend  genera archivos compilados: css,js,html y estos pueden subirse a un apache,s3(ngnix).
+Obviamente hay un tema de arquitectura.
+\section{SQL VS NoSQL}
+Si el app su prioridad los datos necesitan tener estructura y respetar los principios ACID
+entonces BD relacional (SQL) .En cambio si se quiere escalabilidad,flexibilidad en la extructura,busqueda rapida se recomienda BD no relacionales ()NOSQL).
+\section{Diferencia entre REST Y SOAP}
+Rest es una arquitectura en cambio SOAP es un protocolo que necesita un contrato(WDSL).\\
+Rest es mas sencillo de usar.
+\section{Diferencias LET,CONST,VAR}
+VAR :Esta obsoleto.
+LET :Define una variable en el  alcance donde fue declarada esa variable
+CONST : No se puede reasignar un valor.
+\section{Funcion flecha}
+Una forma abreviada de declarar una funcion.Una funcion anonima.
+\section{Normalizacion de datos}
+Tecnica que se usa para reducir la redundancia.Mantener la integridad.
+\section{Como proteger los servicios expuestos por el backend}
+Protocolo u2,el header con un identificador ajeno a JWT.HTTPS.
+\section{Utilidad de JWT}
+Un mecanismo que tiene un formato especial,que al decodificarlo presenta una firma,payload,
+asignasure,header.Es un identificador.
+\section{OAUTH2}
+Un protocolo de autorizacion para acceder a ciertos permisos en otras aplicaciones.
+\section{Gestores o productos de seguridad}
+WSO2 Identity server.\\
+Key cloack.\\
+AWS Cognito.
+\section{Se puede modificar el payload de un JWT}
+Si ,pero la firma lo detectara como corrupto.
+\section{Angular VS React}
+Caundo hay mucha manipulacion o demanda de la pagina,react tiene mejores tiempos de respuesta.
+En cambio angular tiene las tecnologias listas para usar,standares y personal tecnologico mas
+disponible.
+\section{Como proteges los aplicativos en el frontend}
+Mediante accesos no autorizados.\\
+Proteger la autorizacion.Acceder a un recurso que no me pertenece.\\
+Validar la caducidad de los tokens.
+\section{Programacion re4activa}
+Procesos asincronos,mejores tiempos de respuesta,orientado a eventos.
+\section{Que es un MOCK}
+Objetos ya programados,con una salida esperada.Datos ficticios.Usado en testing.
+\section{Inyeccion de dependencias}
+Es un patron de diseno.La misma tecnologia es el encargado de proporcionar las instancias  en el tiempo oportuno.Permite desacoplar el codigo.
+\section{Preprocesadores de css conoces.}
+less\\
+Sas\\
+Styles.
+\section{UI VS UIX}
+UI es la interfaz de usuario.Mientras que UIX se refiere a la experiencia de usuario,la usabilidad.
+\section{Que es COORS}
+
+\section{CSFR}
+Ataque se envia codigo malicioso al servidor.Ataca vulneravilidades del cliente para explotar un servicio
+\section{Evitar inyeccion SQL}
+La misma dependencia de JPA prevee esto.Usando procedimientos almacenados
+\section{Que es una interface en Typescript}
+Define una estructura,como una plantilla.
+\section{Especificacion de Javascript}
+Ecmascript .Apartir de Ecmascript 6 aparecio la definicion de let y const.
+Tipo de datos de Javascript:String,booleano,objeto e indefinido.
+\section{Que hace el operador delete de JS}
+Elimina una propiedad de un objeto.
+\section{Storage usado en navegadores}
+Local storage,su alcance a pesar de cerrar session continua.\\
+Session storage ,su alcance es mas temporal.
+La diferencia entre ambos es el alcance.
+\section{DOM}
+Es el arbol de nodos de las etiquetas HTML.
+\section{Callback}
+Funcion que tiene paramtro otra funcion.
+\section{Callback Hell}
+Se anidan varios callback.
+\section{Que es un observable}
+Es un flujo de datos,para que cualquier suscripcion se entere si ha existido un cambio.
+\section{Landinpage usarias jquery o angular}
+Landinpage si es pequeño se usa jquery, si el Landinpage va a crecer o se va a reutilizar entonces angular.
+\section{Nivel junior}
+1.	¿Cuál es la diferencia entre error y excepción?\\
+2.	Diferencia entre finally y finalize\\
+3.	¿Para qué sirve la palabra reservada final?\\
+4.	¿Cuáles son los 4 pilares de la POO?\\
+5.	¿Cuál es la diferencia entre una interfaz y una clase abstracta?\\
+6.	¿Qué es un Servlet?
+\section{Nivel Semi Senior}
+1.	¿Qué es el autoboxing?\\
+2.	Diferencia entre equals e ==\\
+3.	Define agregación y su diferencia contra composición\\
+4.	¿Qué tipos de excepciones existen?\\
+5.	¿Cuál es la diferencia entre overload y override?\\
+6.	¿Qué es un deadlock?
+\section{Nivel Senior}
+1.	¿Para qué sirve transient?\\
+2.	Explica el ciclo de vida de un servlet\\
+3.	¿Cuál es la diferencia entre hilo y proceso?\\
+4.	Explica el ciclo de vida de un hilo\\
+5.	¿Cómo evitas un deadlock?\\
+6.	¿Cómo se usa la palabra reservada synchronized?\\
+7.	¿Cuál es la diferencia entre los métodos sleep y await en hilos?
+\section{Preguntas de Base de datos}
+1.	¿Para qué sirven los índices?\\
+2.	¿Cuál es la diferencia entre where y having?\\
+3.	Diferencia entre procedimiento almacenado y función\\
+4.	Formas de unir dos tablas de una base de datos (joins)\\
+5.	¿Qué es la normalización?
+\section{Preguntas de Middleware}
+1.	¿Qué métodos de HTTP existen?\\
+2.	¿Qué es REST?\\
+3.	¿Cuál es la diferencia entre REST y SOAP?\\
+4.	¿Para qué sirve qualified? (realmente es pregunta sobre singleton)\\
+5.	¿Cómo se usa la anotación value?\\
+6.	¿Qué es la inversión de control?\\
+7.	¿Qué es la inyección de dependencias?\\
+8.	Explica que es el contenedor IOC de spring\\
+9.	¿Qué anotaciones se usan en spring para inyección de dependencias?\\
+10.	Diferencia entre spring y spring boot\\
+11.	Diferencia entre Repository, Service y Controller\\
+12.	Formas de inyectar dependencias en Spring\\
+13.	¿Cuál es el ciclo de vida de spring?

@@ -1,0 +1,114 @@
+\BOOKMARK [0][-]{chapter.1}{Preguntas tecnicas Java y Spring}{}% 1
+\BOOKMARK [1][-]{section*.2}{Diferencias entre Spring y Spring Boot}{chapter.1}% 2
+\BOOKMARK [1][-]{section*.3}{Que es un Bean}{chapter.1}% 3
+\BOOKMARK [1][-]{section*.4}{Que es el ambito de un bean}{chapter.1}% 4
+\BOOKMARK [1][-]{section*.5}{Que son los starters y cual es su objetivo}{chapter.1}% 5
+\BOOKMARK [1][-]{section*.6}{Cuales son las principales verbos/metodos HTTP y como se pueden implementar con Spring Boot}{chapter.1}% 6
+\BOOKMARK [1][-]{section*.7}{Que diferencia existe entre JPA e Hibernate}{chapter.1}% 7
+\BOOKMARK [1][-]{section*.8}{Que es Spring Initializer}{chapter.1}% 8
+\BOOKMARK [1][-]{section*.9}{Que diferencias existen entre @Repository @Service @Component @Controller}{chapter.1}% 9
+\BOOKMARK [1][-]{section*.10}{Explique la anotacion @RestController}{chapter.1}% 10
+\BOOKMARK [1][-]{section*.11}{Que es Spring AOP}{chapter.1}% 11
+\BOOKMARK [1][-]{section*.12}{La anotacion @Profile que funcion tiene y porque es importante}{chapter.1}% 12
+\BOOKMARK [1][-]{section*.13}{Que hace la anotacion @SpringBootApplication internamente}{chapter.1}% 13
+\BOOKMARK [1][-]{section*.14}{Que patrones estan presentes en Spring/SpringBoot agregue un ejemplo}{chapter.1}% 14
+\BOOKMARK [1][-]{section*.15}{Para que se usa @TransacTional}{chapter.1}% 15
+\BOOKMARK [1][-]{section*.16}{Que es la inyeccion de dependencias}{chapter.1}% 16
+\BOOKMARK [1][-]{section*.17}{Cuales son las formas de inyecccion de dependencias que existen en Spring y cual es el mas adecuado}{chapter.1}% 17
+\BOOKMARK [1][-]{section*.18}{Para que se usa @Value y que lenguaje usa la anotacion para su funcion}{chapter.1}% 18
+\BOOKMARK [1][-]{section*.19}{Cual es el puerto por defecto de una aplicacion Spring Boot y como podemos cambiarlo}{chapter.1}% 19
+\BOOKMARK [1][-]{section*.20}{Que es Spring Actuator}{chapter.1}% 20
+\BOOKMARK [1][-]{section*.21}{Que es Spring Cloud}{chapter.1}% 21
+\BOOKMARK [1][-]{section*.22}{Spring IoC Conteiner}{chapter.1}% 22
+\BOOKMARK [1][-]{section*.23}{Que es un Autowired}{chapter.1}% 23
+\BOOKMARK [1][-]{section*.24}{Como indicas que bean utilizar}{chapter.1}% 24
+\BOOKMARK [1][-]{section*.25}{Como se gestionan las transacciones en Spring}{chapter.1}% 25
+\BOOKMARK [1][-]{section*.26}{Se puede trabajar Spring solo con java}{chapter.1}% 26
+\BOOKMARK [1][-]{section*.27}{Cuales son los archivos de configuraci\363n de Spring Boot}{chapter.1}% 27
+\BOOKMARK [1][-]{section*.28}{Cuales son los estereotipos de Spring y que funciones cumplen}{chapter.1}% 28
+\BOOKMARK [1][-]{section*.29}{Las aplicaciones que SpringApplication resume}{chapter.1}% 29
+\BOOKMARK [1][-]{section*.30}{Que contenedores embebeidos puede tener Spring Boot}{chapter.1}% 30
+\BOOKMARK [1][-]{section*.31}{Como ejecutas en consola el codigo de Spring}{chapter.1}% 31
+\BOOKMARK [1][-]{section*.32}{Como lees el archivo properties}{chapter.1}% 32
+\BOOKMARK [1][-]{section*.33}{Establecer entornos de QA,DEV,PROD}{chapter.1}% 33
+\BOOKMARK [1][-]{section*.34}{Spring Boot es compatible con proyectos antiguos de Spring}{chapter.1}% 34
+\BOOKMARK [1][-]{section*.35}{Que anotacion usas para obtener el json y enviarlo en objeto en java}{chapter.1}% 35
+\BOOKMARK [1][-]{section*.36}{Como se gestiona el tema de la internalizaci\363n o 18n}{chapter.1}% 36
+\BOOKMARK [1][-]{section*.37}{Spring Security forma parte de Spring Framework}{chapter.1}% 37
+\BOOKMARK [1][-]{section*.38}{Defina la arquitectura de microservicios}{chapter.1}% 38
+\BOOKMARK [1][-]{section*.39}{Ventajas de arquitectura de microservicios}{chapter.1}% 39
+\BOOKMARK [1][-]{section*.40}{Implementar los retos para la arquitectura de microservicios}{chapter.1}% 40
+\BOOKMARK [1][-]{section*.41}{En la arquitectura de microservicios como se puede resolver el problema de los parametros de configuraci\363n de los microservicios y sus instancias}{chapter.1}% 41
+\BOOKMARK [1][-]{section*.42}{En una arquitectura de microservicios son comunes las llamadas servicio-servicio que mecanismos puede implementar para evitar posibles fallos}{chapter.1}% 42
+\BOOKMARK [1][-]{section*.43}{Porque Java Developer}{chapter.1}% 43
+\BOOKMARK [1][-]{section*.44}{Tenemos una semana de atraso, como afrontarias esta situaci\363n de estres}{chapter.1}% 44
+\BOOKMARK [1][-]{section*.45}{Porque java es independiente}{chapter.1}% 45
+\BOOKMARK [1][-]{section*.46}{En que situaciones utilizarias los tipos de dato wrappe}{chapter.1}% 46
+\BOOKMARK [1][-]{section*.47}{Los conceptos claves de POO}{chapter.1}% 47
+\BOOKMARK [1][-]{section*.48}{Una interface puede heredar o implementar una interface}{chapter.1}% 48
+\BOOKMARK [1][-]{section*.49}{Cuando usarrias una clase abstracta de una interface}{chapter.1}% 49
+\BOOKMARK [1][-]{section*.50}{Cuando se usaria una list o un set}{chapter.1}% 50
+\BOOKMARK [1][-]{section*.51}{Cuantos metodos abstractos o no implementados puede tener una interface funcional}{chapter.1}% 51
+\BOOKMARK [1][-]{section*.52}{Cual es la difeencia entre List y ArayList}{chapter.1}% 52
+\BOOKMARK [1][-]{section*.53}{Interrfaces funcionales que ofrece java}{chapter.1}% 53
+\BOOKMARK [1][-]{section*.54}{Cuando usarrias Runnnable y thread en una clase}{chapter.1}% 54
+\BOOKMARK [1][-]{section*.55}{Que es la sincronizacion en java}{chapter.1}% 55
+\BOOKMARK [1][-]{section*.56}{Comprueba usted su codigo}{chapter.1}% 56
+\BOOKMARK [1][-]{section*.57}{Como ejecutas javascript desde java}{chapter.1}% 57
+\BOOKMARK [1][-]{section*.58}{De un conjunto de elementos,como eliminar los elementos duplicados}{chapter.1}% 58
+\BOOKMARK [1][-]{section*.59}{Comenta sobrre el esquema de licencia Java}{chapter.1}% 59
+\BOOKMARK [1][-]{section*.60}{Cambios de java 8 a 11/17}{chapter.1}% 60
+\BOOKMARK [1][-]{section*.61}{Programacion funcional}{chapter.1}% 61
+\BOOKMARK [1][-]{section*.62}{Streams}{chapter.1}% 62
+\BOOKMARK [1][-]{section*.63}{Lambda}{chapter.1}% 63
+\BOOKMARK [1][-]{section*.64}{Java optional}{chapter.1}% 64
+\BOOKMARK [1][-]{section*.65}{Patrones de Arquitectura}{chapter.1}% 65
+\BOOKMARK [1][-]{section*.66}{Como activa un perfil}{chapter.1}% 66
+\BOOKMARK [1][-]{section*.67}{SPEL}{chapter.1}% 67
+\BOOKMARK [1][-]{section*.68}{AOP}{chapter.1}% 68
+\BOOKMARK [1][-]{section*.69}{Peticion HTTP}{chapter.1}% 69
+\BOOKMARK [1][-]{section*.70}{Respuesta HTTP}{chapter.1}% 70
+\BOOKMARK [1][-]{section*.71}{Soporte para REST}{chapter.1}% 71
+\BOOKMARK [1][-]{section*.72}{Configuracion de metricas}{chapter.1}% 72
+\BOOKMARK [1][-]{section*.73}{Dependencias para usar Swagger}{chapter.1}% 73
+\BOOKMARK [1][-]{section*.74}{Configuracion de Cache}{chapter.1}% 74
+\BOOKMARK [1][-]{section*.75}{Concurrent MapCacheManager}{chapter.1}% 75
+\BOOKMARK [1][-]{section*.76}{Integracion con REDIS}{chapter.1}% 76
+\BOOKMARK [1][-]{section*.77}{Cuales son los chicos malos.seguridad}{chapter.1}% 77
+\BOOKMARK [1][-]{section*.78}{Cambiar password en spring segurity}{chapter.1}% 78
+\BOOKMARK [1][-]{section*.79}{Spring Segurity autentificacion contra una B.D.}{chapter.1}% 79
+\BOOKMARK [1][-]{section*.80}{Formas de proteger apliaciones Spring Boot}{chapter.1}% 80
+\BOOKMARK [1][-]{section*.81}{Security Context Holder}{chapter.1}% 81
+\BOOKMARK [1][-]{section*.82}{Global Security Config}{chapter.1}% 82
+\BOOKMARK [1][-]{section*.83}{@Secured}{chapter.1}% 83
+\BOOKMARK [1][-]{section*.84}{@RolesAllowed}{chapter.1}% 84
+\BOOKMARK [1][-]{section*.85}{@PreAuthorize @PostAuthorize}{chapter.1}% 85
+\BOOKMARK [1][-]{section*.86}{Status HTTP 403}{chapter.1}% 86
+\BOOKMARK [1][-]{section*.87}{S.O.L.I.D.}{chapter.1}% 87
+\BOOKMARK [1][-]{section*.88}{Artifactory}{chapter.1}% 88
+\BOOKMARK [1][-]{section*.89}{Sonar Cube}{chapter.1}% 89
+\BOOKMARK [1][-]{section*.90}{Jenkins,jmeter}{chapter.1}% 90
+\BOOKMARK [1][-]{section*.91}{Streams que mas has usado.Map}{chapter.1}% 91
+\BOOKMARK [1][-]{section*.92}{Diferencias entre Rest y SOAP}{chapter.1}% 92
+\BOOKMARK [1][-]{section*.93}{Que es una interfaz funcional}{chapter.1}% 93
+\BOOKMARK [1][-]{section*.94}{SCRUM}{chapter.1}% 94
+\BOOKMARK [1][-]{section*.95}{Patrones de microservicios}{chapter.1}% 95
+\BOOKMARK [1][-]{section*.96}{Patrones de diseno software}{chapter.1}% 96
+\BOOKMARK [1][-]{section*.97}{OWASP}{chapter.1}% 97
+\BOOKMARK [1][-]{section*.98}{Tipos de arquitectura de Software}{chapter.1}% 98
+\BOOKMARK [1][-]{section*.99}{Arquitectura Limpia}{chapter.1}% 99
+\BOOKMARK [1][-]{section*.100}{ Arquitectura Hexagonal}{chapter.1}% 100
+\BOOKMARK [1][-]{section*.101}{RxJava}{chapter.1}% 101
+\BOOKMARK [1][-]{section*.102}{AKS,funcions,cosmoDB}{chapter.1}% 102
+\BOOKMARK [1][-]{section*.103}{Circuit Breaker}{chapter.1}% 103
+\BOOKMARK [1][-]{section*.104}{Programacion reactiva como lo has usado,dependencias}{chapter.1}% 104
+\BOOKMARK [1][-]{section*.105}{Pruebas de test unitario,mockito}{chapter.1}% 105
+\BOOKMARK [1][-]{section*.106}{Webflux}{chapter.1}% 106
+\BOOKMARK [1][-]{section*.107}{Bitbacket}{chapter.1}% 107
+\BOOKMARK [1][-]{section*.108}{Spring Cloud Config server}{chapter.1}% 108
+\BOOKMARK [1][-]{section*.109}{Spring Security}{chapter.1}% 109
+\BOOKMARK [1][-]{section*.110}{MongoDB}{chapter.1}% 110
+\BOOKMARK [1][-]{section*.111}{Monitoreo Kibana,prometheus,grafena,new relic}{chapter.1}% 111
+\BOOKMARK [1][-]{section*.112}{git privacy}{chapter.1}% 112
+\BOOKMARK [1][-]{section*.113}{Jenkins, Prometheus, Grafana, Logstash, Kibana, Fluentd}{chapter.1}% 113
+\BOOKMARK [1][-]{section*.114}{ORM}{chapter.1}% 114
