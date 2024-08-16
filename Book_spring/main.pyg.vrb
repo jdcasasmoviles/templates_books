@@ -1,0 +1,9 @@
+\begin{Verbatim}[commandchars=\\\{\},codes={\catcode`\$=3\catcode`\^=7\catcode`\_=8\relax}]
+\PY{+w}{        }\PY{k+kn}{import}\PY{+w}{ }\PY{n+nn}{javax.swing.*}\PY{p}{;}
+\PY{+w}{        }\PY{k+kn}{import}\PY{+w}{ }\PY{n+nn}{java.awt.*}\PY{p}{;}
+\PY{+w}{        }\PY{k+kd}{public}\PY{+w}{ }\PY{k+kd}{class} \PY{n+nc}{app\PYZus{}prg1}\PY{+w}{ }\PY{k+kd}{extends}\PY{+w}{ }\PY{n}{JApplet}
+\PY{+w}{        }\PY{p}{\PYZob{}}\PY{+w}{ }\PY{k+kd}{public}\PY{+w}{ }\PY{k+kt}{void}\PY{+w}{ }\PY{n+nf}{init}\PY{p}{()\PYZob{}\PYZcb{}}
+\PY{+w}{                }\PY{k+kd}{public}\PY{+w}{ }\PY{k+kt}{void}\PY{+w}{ }\PY{n+nf}{paint}\PY{+w}{ }\PY{p}{(}\PY{+w}{ }\PY{n}{Graphics}\PY{+w}{ }\PY{n}{g}\PY{+w}{ }\PY{p}{)\PYZob{}}
+\PY{+w}{                        }\PY{n}{g}\PY{p}{.}\PY{n+na}{drawString}\PY{p}{(}\PY{l+s}{\PYZdq{} 3 +46 = \PYZdq{}}\PY{o}{+}\PY{p}{(}\PY{l+m+mi}{3}\PY{o}{+}\PY{l+m+mi}{46}\PY{p}{),}\PY{l+m+mi}{30}\PY{p}{,}\PY{+w}{ }\PY{l+m+mi}{30}\PY{+w}{ }\PY{p}{);\PYZcb{}}
+\PY{+w}{        }\PY{p}{\PYZcb{}}
+\end{Verbatim}

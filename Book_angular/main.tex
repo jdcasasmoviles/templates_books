@@ -1,0 +1,48 @@
+\documentclass[12pt,fleqn,x11names,table]{book}                                             
+\usepackage[margin=1in]{geometry}% Dimensiones y márgenes=1 pulgada alrededor del texto  
+\usepackage{amsmath,amssymb,amsfonts,latexsym,cancel,xcolor,color}
+  \usepackage[english,spanish,es-tabla]{babel}
+\usepackage{graphicx}
+\usepackage{setspace}%%Para dar interlineado
+\usepackage{float}%% Para usar H en figuras
+\usepackage{multirow} % para las tablas
+\usepackage{newcent} %New Century Schoolbook
+\usepackage{verbments}%Requiere Python, Pygments y Habilitar en las opdenes de pdflatex lo sihuiente
+\usepackage{tcolorbox, empheq}%Para cajas de ejercicios
+\input{EstiloB}% = Paquetes y código de diseño "B"
+%%Colores para cajas de ejercicios
+\definecolor{azulF}{rgb}{.0,.0,.3} % Azul
+\definecolor{rojoF}{RGB}{212,0,0} % Rojo
+\newcommand{\Z}{\mathbb{Z}} % \Z
+%%Estilo para cajas de ejercicios
+\tcbuselibrary{skins,breakable,listings,theorems}
+\tcbset{opteqA/.style={%
+		tcboxraise base,
+		nobeforeafter,
+		extrude by=-2mm,
+		colback=red!50!black!20,
+		colframe=red!50!black!20}}
+%%Colores  para cajas de programa
+\definecolor{verbmentsbgcolor}{rgb}{0.9764, 0.9764, 0.9762}
+\definecolor{verbmentscaptionbgcolor}{rgb}{0.1647, 0.4980, 1}	
+% Insertar portada
+\usepackage{pdfpages}
+\begin{document}
+	\input caratula.tex		%% Caratula
+	\spacing{1.2}			%% espaciado
+	\tableofcontents		%%Indice
+	\listoffigures			%%Indice figuras
+	%%\listoftables			%%Indice tablas
+	\thispagestyle{empty}
+	\mainmatter			    %empieza la numeración de las páginas    
+	\cleardoublepage
+	\pagestyle{fancy}                      % Habilitar encabezados
+	\pagenumbering{arabic}                 % Numeración arabiga
+	\ansj=1                                % Cap 1 inicializa listas      
+	\input listaProgramasVB.tex
+	\input cap1.tex
+	\input cap2.tex
+	\input cap3.tex
+\end{document}
+
+

@@ -1,0 +1,19 @@
+\documentclass[11pt,fleqn,x11names,table]{book}                                                  
+\usepackage[margin=1in]{geometry}% Dimensiones y márgenes=1 pulgada alrededor del texto  
+\usepackage{setspace}%%Para dar interlineado
+\usepackage{float}%% Para usar H en figuras
+\input{EstiloB.tex}% = Paquetes y código de diseño "B"
+\input{MarcaAgua.tex} %%marca de agua
+\begin{document}
+\input caratula.tex		%% Caratula
+\spacing{1.1}			%% espaciado
+\tableofcontents		%%Indice
+\listoffigures			%%Indice figuras
+%%\listoftables			%%Indice tablas
+\pagestyle{fancy}%%Estilo de numeracion y encabezado
+\mainmatter			    %empieza la numeración de las páginas            
+\input cap1.tex
+%%\input cap2.tex
+%%\input cap3.tex
+%%\input cap4.tex
+\end{document}
