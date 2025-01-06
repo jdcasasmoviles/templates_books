@@ -1,115 +1,178 @@
 \babel@toc {spanish}{}
-\contentsline {chapter}{\numberline {1}Preguntas tecnicas Java y Spring}{5}{chapter.1}
-\contentsline {section}{Diferencias entre Spring y Spring Boot}{5}{section*.2}
-\contentsline {section}{Que es un Bean}{5}{section*.3}
-\contentsline {section}{Que es el ambito de un bean}{5}{section*.4}
-\contentsline {section}{Que son los starters y cual es su objetivo}{5}{section*.5}
-\contentsline {section}{Cuales son las principales verbos/metodos HTTP y como se pueden implementar con Spring Boot}{5}{section*.6}
-\contentsline {section}{Que diferencia existe entre JPA e Hibernate}{5}{section*.7}
-\contentsline {section}{Que es Spring Initializer}{5}{section*.8}
-\contentsline {section}{Que diferencias existen entre @Repository @Service @Component @Controller}{5}{section*.9}
-\contentsline {section}{Explique la anotacion @RestController}{6}{section*.10}
-\contentsline {section}{Que es Spring AOP}{6}{section*.11}
-\contentsline {section}{La anotacion @Profile que funcion tiene y porque es importante}{6}{section*.12}
-\contentsline {section}{Que hace la anotacion @SpringBootApplication internamente}{6}{section*.13}
-\contentsline {section}{Que patrones estan presentes en Spring/SpringBoot agregue un ejemplo}{6}{section*.14}
-\contentsline {section}{Para que se usa @TransacTional}{6}{section*.15}
-\contentsline {section}{Que es la inyeccion de dependencias}{6}{section*.16}
-\contentsline {section}{Cuales son las formas de inyecccion de dependencias que existen en Spring y cual es el mas adecuado}{6}{section*.17}
-\contentsline {section}{Para que se usa @Value y que lenguaje usa la anotacion para su funcion}{6}{section*.18}
-\contentsline {section}{Cual es el puerto por defecto de una aplicacion Spring Boot y como podemos cambiarlo}{6}{section*.19}
-\contentsline {section}{Que es Spring Actuator}{6}{section*.20}
-\contentsline {section}{Que es Spring Cloud}{7}{section*.21}
-\contentsline {section}{Spring IoC Conteiner}{7}{section*.22}
-\contentsline {section}{Que es un Autowired}{7}{section*.23}
-\contentsline {section}{Como indicas que bean utilizar}{7}{section*.24}
-\contentsline {section}{Como se gestionan las transacciones en Spring}{7}{section*.25}
-\contentsline {section}{Se puede trabajar Spring solo con java}{7}{section*.26}
-\contentsline {section}{Cuales son los archivos de configuraci\'on de Spring Boot}{7}{section*.27}
-\contentsline {section}{Cuales son los estereotipos de Spring y que funciones cumplen}{7}{section*.28}
-\contentsline {section}{Las aplicaciones que SpringApplication resume}{7}{section*.29}
-\contentsline {section}{Que contenedores embebeidos puede tener Spring Boot}{7}{section*.30}
-\contentsline {section}{Como ejecutas en consola el codigo de Spring}{7}{section*.31}
-\contentsline {section}{Como lees el archivo properties}{7}{section*.32}
-\contentsline {section}{Establecer entornos de QA,DEV,PROD}{7}{section*.33}
-\contentsline {section}{Spring Boot es compatible con proyectos antiguos de Spring}{7}{section*.34}
-\contentsline {section}{Que anotacion usas para obtener el json y enviarlo en objeto en java}{7}{section*.35}
-\contentsline {section}{Como se gestiona el tema de la internalizaci\'on o 18n}{8}{section*.36}
-\contentsline {section}{Spring Security forma parte de Spring Framework}{8}{section*.37}
-\contentsline {section}{Defina la arquitectura de microservicios}{8}{section*.38}
-\contentsline {section}{Ventajas de arquitectura de microservicios}{8}{section*.39}
-\contentsline {section}{Implementar los retos para la arquitectura de microservicios}{8}{section*.40}
-\contentsline {section}{En la arquitectura de microservicios como se puede resolver el problema de los parametros de configuraci\'on de los microservicios y sus instancias}{8}{section*.41}
-\contentsline {section}{En una arquitectura de microservicios son comunes las llamadas servicio-servicio que mecanismos puede implementar para evitar posibles fallos}{8}{section*.42}
-\contentsline {section}{Porque Java Developer}{8}{section*.43}
-\contentsline {section}{Tenemos una semana de atraso, como afrontarias esta situaci\'on de estres}{9}{section*.44}
-\contentsline {section}{Porque java es independiente}{9}{section*.45}
-\contentsline {section}{En que situaciones utilizarias los tipos de dato wrappe}{9}{section*.46}
-\contentsline {section}{Los conceptos claves de POO}{9}{section*.47}
-\contentsline {section}{Una interface puede heredar o implementar una interface}{9}{section*.48}
-\contentsline {section}{Cuando usarrias una clase abstracta de una interface}{9}{section*.49}
-\contentsline {section}{Cuando se usaria una list o un set}{9}{section*.50}
-\contentsline {section}{Cuantos metodos abstractos o no implementados puede tener una interface funcional}{9}{section*.51}
-\contentsline {section}{Cual es la difeencia entre List y ArayList}{9}{section*.52}
-\contentsline {section}{Interrfaces funcionales que ofrece java}{9}{section*.53}
-\contentsline {section}{Cuando usarrias Runnnable y thread en una clase}{9}{section*.54}
-\contentsline {section}{Que es la sincronizacion en java}{9}{section*.55}
-\contentsline {section}{Comprueba usted su codigo}{9}{section*.56}
-\contentsline {section}{Como ejecutas javascript desde java}{9}{section*.57}
-\contentsline {section}{De un conjunto de elementos,como eliminar los elementos duplicados}{9}{section*.58}
-\contentsline {section}{Comenta sobrre el esquema de licencia Java}{10}{section*.59}
-\contentsline {section}{Cambios de java 8 a 11/17}{10}{section*.60}
-\contentsline {section}{Programacion funcional}{10}{section*.61}
-\contentsline {section}{Streams}{10}{section*.62}
-\contentsline {section}{Lambda}{10}{section*.63}
-\contentsline {section}{Java optional}{10}{section*.64}
-\contentsline {section}{Patrones de Arquitectura}{10}{section*.65}
-\contentsline {section}{Como activa un perfil}{10}{section*.66}
-\contentsline {section}{SPEL}{10}{section*.67}
-\contentsline {section}{AOP}{10}{section*.68}
-\contentsline {section}{Peticion HTTP}{10}{section*.69}
-\contentsline {section}{Respuesta HTTP}{11}{section*.70}
-\contentsline {section}{Soporte para REST}{11}{section*.71}
-\contentsline {section}{Configuracion de metricas}{11}{section*.72}
-\contentsline {section}{Dependencias para usar Swagger}{11}{section*.73}
-\contentsline {section}{Configuracion de Cache}{11}{section*.74}
-\contentsline {section}{Concurrent MapCacheManager}{11}{section*.75}
-\contentsline {section}{Integracion con REDIS}{11}{section*.76}
-\contentsline {section}{Cuales son los chicos malos.seguridad}{11}{section*.77}
-\contentsline {section}{Cambiar password en spring segurity}{11}{section*.78}
-\contentsline {section}{Spring Segurity autentificacion contra una B.D.}{11}{section*.79}
-\contentsline {section}{Formas de proteger apliaciones Spring Boot}{11}{section*.80}
-\contentsline {section}{Security Context Holder}{12}{section*.81}
-\contentsline {section}{Global Security Config}{12}{section*.82}
-\contentsline {section}{@Secured}{12}{section*.83}
-\contentsline {section}{@RolesAllowed}{12}{section*.84}
-\contentsline {section}{@PreAuthorize @PostAuthorize}{12}{section*.85}
-\contentsline {section}{Status HTTP 403}{12}{section*.86}
-\contentsline {section}{S.O.L.I.D.}{12}{section*.87}
-\contentsline {section}{Artifactory}{12}{section*.88}
-\contentsline {section}{Sonar Cube}{12}{section*.89}
-\contentsline {section}{Jenkins,jmeter}{12}{section*.90}
-\contentsline {section}{Streams que mas has usado.Map}{12}{section*.91}
-\contentsline {section}{Diferencias entre Rest y SOAP}{13}{section*.92}
-\contentsline {section}{Que es una interfaz funcional}{13}{section*.93}
-\contentsline {section}{SCRUM}{13}{section*.94}
-\contentsline {section}{Patrones de microservicios}{13}{section*.95}
-\contentsline {section}{Patrones de diseno software}{13}{section*.96}
-\contentsline {section}{OWASP}{13}{section*.97}
-\contentsline {section}{Tipos de arquitectura de Software}{13}{section*.98}
-\contentsline {section}{Arquitectura Limpia}{13}{section*.99}
-\contentsline {section}{ Arquitectura Hexagonal}{14}{section*.100}
-\contentsline {section}{RxJava}{14}{section*.101}
-\contentsline {section}{AKS,funcions,cosmoDB}{14}{section*.102}
-\contentsline {section}{Circuit Breaker}{14}{section*.103}
-\contentsline {section}{Programacion reactiva como lo has usado,dependencias}{14}{section*.104}
-\contentsline {section}{Pruebas de test unitario,mockito}{14}{section*.105}
-\contentsline {section}{Webflux}{14}{section*.106}
-\contentsline {section}{Bitbacket}{14}{section*.107}
-\contentsline {section}{Spring Cloud Config server}{14}{section*.108}
-\contentsline {section}{Spring Security}{14}{section*.109}
-\contentsline {section}{MongoDB}{14}{section*.110}
-\contentsline {section}{Monitoreo Kibana,prometheus,grafena,new relic}{14}{section*.111}
-\contentsline {section}{git privacy}{14}{section*.112}
-\contentsline {section}{Jenkins, Prometheus, Grafana, Logstash, Kibana, Fluentd}{14}{section*.113}
-\contentsline {section}{ORM}{14}{section*.114}
+\contentsline {chapter}{\numberline {1}Preguntas tecnicas FullStack}{5}{chapter.1}
+\contentsline {section}{TDD}{5}{section*.2}
+\contentsline {section}{Ajax}{5}{section*.3}
+\contentsline {section}{div vs span}{5}{section*.4}
+\contentsline {section}{Beneficios de SOLID}{5}{section*.5}
+\contentsline {section}{Verbos HTTP}{5}{section*.6}
+\contentsline {section}{Codigos de respuesta HTTP}{5}{section*.7}
+\contentsline {section}{Como despliegas una aplicacion fullstack}{5}{section*.8}
+\contentsline {section}{SQL VS NoSQL}{5}{section*.9}
+\contentsline {section}{Diferencia entre REST Y SOAP}{5}{section*.10}
+\contentsline {section}{Diferencias LET,CONST,VAR}{5}{section*.11}
+\contentsline {section}{Funcion flecha}{5}{section*.12}
+\contentsline {section}{Normalizacion de datos}{5}{section*.13}
+\contentsline {section}{Como proteger los servicios expuestos por el backend}{5}{section*.14}
+\contentsline {section}{Utilidad de JWT}{6}{section*.15}
+\contentsline {section}{OAUTH2}{6}{section*.16}
+\contentsline {section}{Gestores o productos de seguridad}{6}{section*.17}
+\contentsline {section}{Se puede modificar el payload de un JWT}{6}{section*.18}
+\contentsline {section}{Angular VS React}{6}{section*.19}
+\contentsline {section}{Como proteges los aplicativos en el frontend}{6}{section*.20}
+\contentsline {section}{Programacion re4activa}{6}{section*.21}
+\contentsline {section}{Que es un MOCK}{6}{section*.22}
+\contentsline {section}{Inyeccion de dependencias}{6}{section*.23}
+\contentsline {section}{Preprocesadores de css conoces.}{6}{section*.24}
+\contentsline {section}{UI VS UIX}{6}{section*.25}
+\contentsline {section}{Que es COORS}{6}{section*.26}
+\contentsline {section}{CSFR}{6}{section*.27}
+\contentsline {section}{Evitar inyeccion SQL}{6}{section*.28}
+\contentsline {section}{Que es una interface en Typescript}{6}{section*.29}
+\contentsline {section}{Especificacion de Javascript}{6}{section*.30}
+\contentsline {section}{Que hace el operador delete de JS}{6}{section*.31}
+\contentsline {section}{Storage usado en navegadores}{7}{section*.32}
+\contentsline {section}{DOM}{7}{section*.33}
+\contentsline {section}{Callback}{7}{section*.34}
+\contentsline {section}{Callback Hell}{7}{section*.35}
+\contentsline {section}{Que es un observable}{7}{section*.36}
+\contentsline {section}{Landinpage usarias jquery o angular}{7}{section*.37}
+\contentsline {section}{Nivel junior}{7}{section*.38}
+\contentsline {section}{Nivel Semi Senior}{7}{section*.39}
+\contentsline {section}{Nivel Senior}{7}{section*.40}
+\contentsline {section}{Preguntas de Base de datos}{7}{section*.41}
+\contentsline {section}{Preguntas de Middleware}{7}{section*.42}
+\contentsline {chapter}{\numberline {2}Preguntas tecnicas Java y Spring}{9}{chapter.2}
+\contentsline {section}{Diferencias entre Spring y Spring Boot}{9}{section*.43}
+\contentsline {section}{Que es un Bean}{9}{section*.44}
+\contentsline {section}{Que es el ambito de un bean}{9}{section*.45}
+\contentsline {section}{Que son los starters y cual es su objetivo}{9}{section*.46}
+\contentsline {section}{Cuales son las principales verbos/metodos HTTP y como se pueden implementar con Spring Boot}{9}{section*.47}
+\contentsline {section}{Que diferencia existe entre JPA e Hibernate}{9}{section*.48}
+\contentsline {section}{Que es Spring Initializer}{9}{section*.49}
+\contentsline {section}{Que diferencias existen entre @Repository @Service @Component @Controller}{9}{section*.50}
+\contentsline {section}{Explique la anotacion @RestController}{10}{section*.51}
+\contentsline {section}{Que es Spring AOP}{10}{section*.52}
+\contentsline {section}{La anotacion @Profile que funcion tiene y porque es importante}{10}{section*.53}
+\contentsline {section}{Que hace la anotacion @SpringBootApplication internamente}{10}{section*.54}
+\contentsline {section}{Que patrones estan presentes en Spring/SpringBoot agregue un ejemplo}{10}{section*.55}
+\contentsline {section}{Para que se usa @TransacTional}{10}{section*.56}
+\contentsline {section}{Que es la inyeccion de dependencias}{10}{section*.57}
+\contentsline {section}{Cuales son las formas de inyecccion de dependencias que existen en Spring y cual es el mas adecuado}{10}{section*.58}
+\contentsline {section}{Para que se usa @Value y que lenguaje usa la anotacion para su funcion}{10}{section*.59}
+\contentsline {section}{Cual es el puerto por defecto de una aplicacion Spring Boot y como podemos cambiarlo}{10}{section*.60}
+\contentsline {section}{Que es Spring Actuator}{10}{section*.61}
+\contentsline {section}{Que es Spring Cloud}{11}{section*.62}
+\contentsline {section}{Spring IoC Conteiner}{11}{section*.63}
+\contentsline {section}{Que es un Autowired}{11}{section*.64}
+\contentsline {section}{Como indicas que bean utilizar}{11}{section*.65}
+\contentsline {section}{Como se gestionan las transacciones en Spring}{11}{section*.66}
+\contentsline {section}{Se puede trabajar Spring solo con java}{11}{section*.67}
+\contentsline {section}{Cuales son los archivos de configuraci\'on de Spring Boot}{11}{section*.68}
+\contentsline {section}{Cuales son los estereotipos de Spring y que funciones cumplen}{11}{section*.69}
+\contentsline {section}{Las aplicaciones que SpringApplication resume}{11}{section*.70}
+\contentsline {section}{Que contenedores embebeidos puede tener Spring Boot}{11}{section*.71}
+\contentsline {section}{Como ejecutas en consola el codigo de Spring}{11}{section*.72}
+\contentsline {section}{Como lees el archivo properties}{11}{section*.73}
+\contentsline {section}{Establecer entornos de QA,DEV,PROD}{11}{section*.74}
+\contentsline {section}{Spring Boot es compatible con proyectos antiguos de Spring}{11}{section*.75}
+\contentsline {section}{Que anotacion usas para obtener el json y enviarlo en objeto en java}{11}{section*.76}
+\contentsline {section}{Como se gestiona el tema de la internalizaci\'on o 18n}{12}{section*.77}
+\contentsline {section}{Spring Security forma parte de Spring Framework}{12}{section*.78}
+\contentsline {section}{Defina la arquitectura de microservicios}{12}{section*.79}
+\contentsline {section}{Ventajas de arquitectura de microservicios}{12}{section*.80}
+\contentsline {section}{Implementar los retos para la arquitectura de microservicios}{12}{section*.81}
+\contentsline {section}{En la arquitectura de microservicios como se puede resolver el problema de los parametros de configuraci\'on de los microservicios y sus instancias}{12}{section*.82}
+\contentsline {section}{En una arquitectura de microservicios son comunes las llamadas servicio-servicio que mecanismos puede implementar para evitar posibles fallos}{12}{section*.83}
+\contentsline {section}{Porque Java Developer}{12}{section*.84}
+\contentsline {section}{Tenemos una semana de atraso, como afrontarias esta situaci\'on de estres}{13}{section*.85}
+\contentsline {section}{Porque java es independiente}{13}{section*.86}
+\contentsline {section}{En que situaciones utilizarias los tipos de dato wrappe}{13}{section*.87}
+\contentsline {section}{Los conceptos claves de POO}{13}{section*.88}
+\contentsline {section}{Una interface puede heredar o implementar una interface}{13}{section*.89}
+\contentsline {section}{Cuando usarias una clase abstracta de una interface}{13}{section*.90}
+\contentsline {section}{Cuando se usaria una list o un set}{13}{section*.91}
+\contentsline {section}{Cuantos metodos abstractos o no implementados puede tener una interface funcional}{13}{section*.92}
+\contentsline {section}{Cual es la diferencia entre List y ArayList}{13}{section*.93}
+\contentsline {section}{Interfaces funcionales que ofrece java}{13}{section*.94}
+\contentsline {section}{Cuando usarias Runnnable y thread en una clase}{13}{section*.95}
+\contentsline {section}{Que es la sincronizacion en java}{13}{section*.96}
+\contentsline {section}{Comprueba usted su codigo}{13}{section*.97}
+\contentsline {section}{Como ejecutas javascript desde java}{13}{section*.98}
+\contentsline {section}{De un conjunto de elementos,como eliminar los elementos duplicados}{13}{section*.99}
+\contentsline {section}{Comenta sobre el esquema de licencia Java}{14}{section*.100}
+\contentsline {section}{Cambios de java 8 a 11/17}{14}{section*.101}
+\contentsline {section}{Programacion funcional}{14}{section*.102}
+\contentsline {section}{Streams}{14}{section*.103}
+\contentsline {section}{Lambda}{14}{section*.104}
+\contentsline {section}{Java optional}{14}{section*.105}
+\contentsline {section}{Patrones de Arquitectura}{14}{section*.106}
+\contentsline {section}{Como activa un perfil}{14}{section*.107}
+\contentsline {section}{SPEL}{14}{section*.108}
+\contentsline {section}{AOP}{14}{section*.109}
+\contentsline {section}{Peticion HTTP}{14}{section*.110}
+\contentsline {section}{Respuesta HTTP}{15}{section*.111}
+\contentsline {section}{Soporte para REST}{15}{section*.112}
+\contentsline {section}{Configuracion de metricas}{15}{section*.113}
+\contentsline {section}{Dependencias para usar Swagger}{15}{section*.114}
+\contentsline {section}{Configuracion de Cache}{15}{section*.115}
+\contentsline {section}{Concurrent MapCacheManager}{15}{section*.116}
+\contentsline {section}{Integracion con REDIS}{15}{section*.117}
+\contentsline {section}{Cuales son los chicos malos.seguridad}{15}{section*.118}
+\contentsline {section}{Cambiar password en spring segurity}{15}{section*.119}
+\contentsline {section}{Spring Segurity autentificacion contra una B.D.}{15}{section*.120}
+\contentsline {section}{Formas de proteger apliaciones Spring Boot}{15}{section*.121}
+\contentsline {section}{Security . Holder}{16}{section*.122}
+\contentsline {section}{Global Security Config}{16}{section*.123}
+\contentsline {section}{@Secured}{16}{section*.124}
+\contentsline {section}{@RolesAllowed}{16}{section*.125}
+\contentsline {section}{@PreAuthorize @PostAuthorize}{16}{section*.126}
+\contentsline {section}{Status HTTP 403}{16}{section*.127}
+\contentsline {section}{S.O.L.I.D.}{16}{section*.128}
+\contentsline {section}{Artifactory}{16}{section*.129}
+\contentsline {section}{Sonar Cube}{16}{section*.130}
+\contentsline {section}{Jenkins4}{16}{section*.131}
+\contentsline {section}{Streams que mas has usado.Map}{16}{section*.132}
+\contentsline {section}{Diferencias entre Rest y SOAP}{17}{section*.133}
+\contentsline {section}{Que es una interfaz funcional}{17}{section*.134}
+\contentsline {section}{SCRUM}{17}{section*.135}
+\contentsline {section}{Patrones de microservicios}{17}{section*.136}
+\contentsline {section}{Patrones de diseno software}{17}{section*.137}
+\contentsline {section}{OWASP}{17}{section*.138}
+\contentsline {section}{Tipos de arquitectura de Software}{17}{section*.139}
+\contentsline {section}{Arquitectura Limpia}{17}{section*.140}
+\contentsline {section}{ Arquitectura Hexagonal}{18}{section*.141}
+\contentsline {section}{Arquitectura en Microservicios y EventSource}{18}{section*.142}
+\contentsline {section}{Azure Storage}{18}{section*.143}
+\contentsline {section}{Azure Key Vault}{18}{section*.144}
+\contentsline {section}{Azure SQL Database}{18}{section*.145}
+\contentsline {section}{Azure Kubernetes}{18}{section*.146}
+\contentsline {section}{Azure APIM}{19}{section*.147}
+\contentsline {section}{Azure Functions}{19}{section*.148}
+\contentsline {section}{Azure REDIS Cache}{19}{section*.149}
+\contentsline {section}{Patrones de diseno Factory}{19}{section*.150}
+\contentsline {section}{Patrones microservicios saga}{19}{section*.151}
+\contentsline {section}{Microservicios Patron de Orquestacion y coreografia}{19}{section*.152}
+\contentsline {section}{Microservicios Patrones}{19}{section*.153}
+\contentsline {section}{DDD}{19}{section*.154}
+\contentsline {section}{ Comandos basicos Kubernetes}{20}{section*.155}
+\contentsline {section}{cosmoDB}{21}{section*.156}
+\contentsline {section}{Azure VM}{21}{section*.157}
+\contentsline {section}{ ciclo de vida de pod services, comandos en pods, usando la CLI de Azure, troubleshooting}{21}{section*.158}
+\contentsline {section}{API Gateway}{21}{section*.159}
+\contentsline {section}{IntegraciOn y despliegue continuo con herramientas: (Jenkins y Kubernetes)}{21}{section*.160}
+\contentsline {section}{ Junit 5 y Mockito : Uso de Asserts, anotaciones Mock, Test, InjectMock, webClientTest}{21}{section*.161}
+\contentsline {section}{Clean Code y Principios Solid}{21}{section*.162}
+\contentsline {section}{ Key cloak}{21}{section*.163}
+\contentsline {section}{Kubernetes docker}{21}{section*.164}
+\contentsline {section}{TDD Karate}{21}{section*.165}
+\contentsline {section}{RxJava}{21}{section*.166}
+\contentsline {section}{xsd y definicion wsdl, xquery}{21}{section*.167}
+\contentsline {section}{ Eureka api getway Zeull}{21}{section*.168}
+\contentsline {section}{Circuit Breaker}{21}{section*.169}
+\contentsline {section}{Programacion reactiva como lo has usado,dependencias}{21}{section*.170}
+\contentsline {section}{Webflux}{21}{section*.171}
+\contentsline {section}{MongoDB}{21}{section*.172}
+\contentsline {section}{Monitoreo Kibana,prometheus,grafena,dinatrace,new Relic}{21}{section*.173}
+\contentsline {section}{git privacy}{21}{section*.174}
+\contentsline {section}{Jenkins, Logstash, Kibana, Fluentd}{21}{section*.175}
+\contentsline {section}{ORM}{21}{section*.176}

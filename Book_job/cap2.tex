@@ -28,28 +28,28 @@ DELETE @DeleteMapping : Borra la informacion del recurso especificado.\\
 PATCH @PatchMapping : Aplica modificaciones parciales al recurso especificado.
 \section{Que diferencia existe entre JPA e Hibernate}
 Java Persistance API define una especificacion o interfaces para el manejo de persistencias.\\
-Hibernate es una impplementacion particular de JPA.Y es usado ppor defecto en Spring Boot.
+Hibernate es una impplementacion particular de JPA.Y es usado por defecto en Spring Boot.
 JPA es una especificacion e hibernate es una implementacion.
 \section{Que es Spring Initializer}
-Esuna plataforma online para generar un proyecto base de Spring Boot.Se puede usar por la web
+Es una plataforma online para generar un proyecto base de Spring Boot.Se puede usar por la web
 directamente o desde los principales IDES como STS o Intellij.
 \section{Que diferencias existen entre @Repository @Service
 	@Component @Controller}
-No existen diferencias funcionales,solo semanticas.Son anotaciones para marcar clases en Spring y que se creen benas a ppartir de ellas .Ejemplo.:Las clases tipo servicio(@Component,@Service).
+No existen diferencias funcionales,solo semanticas.Son anotaciones para marcar clases en Spring y que se creen benas a partir de ellas .Ejemplo.:Las clases tipo servicio(@Component,@Service).
 \section{Explique la anotacion @RestController}
 Facilita la creacion de API REST usando spring MVC.
-Combina @Controller+@RequestBody.Permite serializar cualquier respuesta de un controlador
-Spring MVC directamente a json o XML..
+Combina @Controller+@ResponseBody.Permite serializar cualquier respuesta de un controlador
+Spring MVC directamente a json o XML.
 \section{Que es Spring AOP}
 AOP significa programacion orientada a aspectos.
-Permite crear aspectosen nuestras aplicaciones para ser usados de forma transversal
+Permite crear aspectos en nuestras aplicaciones para ser usados de forma transversal
 Ejemplo.: Crear una anotacion que permite auditar la realizacion  de determinadas acciones.
 \section{La anotacion @Profile que funcion tiene y porque es importante}
 @Profile permite usar beans determinados en dependencia del perfil activo en una aplicacion Spring Boot.\\
 Los perfiles permiten instancias de forma particular una aplicacion en dependencia de un escenario por ejemplo: dev,qa,prod.
 \section{Que hace la anotacion @SpringBootApplication internamente}
 Anotaci\'on principal de spring boot,ubicada por defecto en la clase principal de un proyecto de spring boot.
-Combina alas anotaciones de :\\
+Combina a las anotaciones de :\\
  @Configuration\\
  @EnableAutoConfiguration\\
  @ComponentScan\\
@@ -60,7 +60,7 @@ Estructural:Proxy.Ejemplo.:Usado por @Transactional para los sistemas de persist
 Comportamiento:Cache Template. 
 \section{Para que se usa @TransacTional}
 En BD una operacion es transactional si mantiene el estado en un sistema consistente.\\
-@Transactional permiteejecutar operaciones en spring en forma de todo o nada.Si algo sale mal durante la ejecucion de una operacion @Transactional el sistema se deja en su estado inicial.
+@Transactional permite ejecutar operaciones en spring en forma de todo o nada.Si algo sale mal durante la ejecucion de una operacion @Transactional el sistema se deja en su estado inicial.
 \section{Que es la inyeccion de dependencias}
 DI es un patron para separar responsabilidades evitando que una clase sea responsable de instanciar objetos de otra.Promueve el bajo acoplamiento.\\
 Al arrancar Spring se crean los objetos (beans) y luego se inyectan donde son necesarios usando @Autowired.
@@ -145,7 +145,7 @@ Permite implementar pruebas de forma mas atomicas.\\
 Permite implementar pruebas de integraci\'on sectorrizadas.\\
 Es posible usar las tecnologias mas adecuadas en cada microservicio.Por ejemplo : Para busqueda de
 clientes y productos,podemos incorporar un Elastic Search para busqueda de texto completo.\\
-Facilita desagregar el despliegue de ciertos micrroserrvicios en diversos nodos y con multiples instancias a
+Facilita desagregar el despliegue de ciertos microserrvicios en diversos nodos y con multiples instancias a
 demanda (Escalamiento horizntal).
 \section{Implementar los retos para la arquitectura de microservicios}
 Lograr un dise\~no adecuado.\\
@@ -168,7 +168,7 @@ Debemos conocer las falacias de la computaci\'n distribuida.\\
 Dar una soluci\'on con reintentos.\\
 Dar una soluci\'on con Circuit Breaker.
  \section{Porque Java Developer}
- Es un lenguaje altamente demandado por las industrrias y diversos sectorres.Java esta consolidado y abierto a un abanico de posibilidades.
+ Es un lenguaje altamente demandado por las industrias y diversos sectores.Java esta consolidado y abierto a un abanico de posibilidades.
 \section{Tenemos una semana de atraso, como afrontarias esta situaci\'on de estres}
 Tratar de evaluar la situacion actual, dar solucion a lo prioritario y despues resolver los otros items de acuerdo a los tiempos y apoyo que brinden el equipo en conjunto. 
 \section{Porque java es independiente}
@@ -176,31 +176,30 @@ Es gracias a la maquina virrtual que java es multiplataforma y se puede usar en 
 \section{En que situaciones utilizarias los tipos de dato wrappe} 
 Los wrapper pueden tener valores nulos.
 \section{Los conceptos claves de POO}
-Encapsulamiento : Prrotege el codigo de las demas varriables prrivadas.Getter Setter.\\
+Encapsulamiento : Protege el codigo de las demas variables privadas.Getter Setter.\\
 Herencia : Una clase puede extenderrse a otra clase\\
-Polimorfismo : Tiene muchas formas.Un objeto puede referrirse a la subclase o superclase segun el tipo de referrencia.\\
-Abstraccion: Se selecciona los datos esenciales de un objeto para ser mostrados y oculta otros elementos menos rrelevantes.
+Polimorfismo : Tiene muchas formas.Un objeto puede referirse a la subclase o superclase segun el tipo de referencia.\\
+Abstraccion: Se selecciona los datos esenciales de un objeto para ser mostrados y oculta otros elementos menos relevantes.
 \section{Una interface puede heredar o implementar una interface}
-Una iinterface solo puede heredar otra interface.Las clases son las que implementan las interfaces.
-\section{Cuando usarrias una clase abstracta de una interface}
+Una interface solo puede heredar otra interface.Las clases son las que implementan las interfaces.
+\section{Cuando usarias una clase abstracta de una interface}
 Una clase puede implementar n interfaces (Herencia multiple) .Una herencia tradicional se puede usar una clase abstracta.
 \section{Cuando se usaria una list o un set}
 Una lista permite valores repetidos . Un set (Hash set) no pemite valores duplicados solo uno nomas se tomara en cuenta. 
 \section{Cuantos metodos abstractos o no implementados puede tener una interface funcional}
-Una interfaz funcional solo puede tener un metodo abstracto.Para que mas adelante a partir de esa interface se pueda generar 
-una expresion lamda.
-\section{Cual es la difeencia entre List y ArayList}
+Una interfaz funcional solo puede tener un metodo abstracto.Para que mas adelante a partir de esa interface se pueda generar  una expresion lamda.
+\section{Cual es la diferencia entre List y ArayList}
 List es la interface y ArrayList es la implementacion de esa interface.
-\section{Interrfaces funcionales que ofrece java}
+\section{Interfaces funcionales que ofrece java}
 Las mas comunes son el predicate (Test) , consumer (Void) , suplayer (Retorna un objeto).
-\section{Cuando usarrias Runnnable y thread en una clase}
+\section{Cuando usarias Runnnable y thread en una clase}
 Runnable es una interface y thread es una clase.\\
 Cuando la clase tenga extend se usaria la interface Runnable.\\
 Si el proceso es asincrono y trabaja de la forma tradicional se puede heredar a thread.\\
 Si se quisiera implementar varias interfaces y aparte heredar a otras clases seria mejor usar runnable.
 Asi pudiendo sobreescribir sus metodos.
 \section{Que es la sincronizacion en java}
-Se debe esperar para que un proceso termine.Para poderr pasar al siguiente.Protegiendo la zona critica (asincrono).\\
+Se debe esperar para que un proceso termine.Para poder pasar al siguiente.Protegiendo la zona critica (asincrono).\\
 Asincrono : Thread,runnable,webflux.
 \section{Comprueba usted su codigo}
 Aplico TDD y trabajo con librerias Junit,Mockito.Tecnicas de definicion de escenarios.
@@ -209,21 +208,21 @@ Con Nashoin y jjs.
 \section{De un conjunto de elementos,como eliminar los elementos duplicados}
 Con el API stream con filter y disting.\\
 Transformamos la lista a Set (Uso la clase colector).
-\section{Comenta sobrre el esquema de licencia Java}
-Java 17 : Es gratis LTS.Hasta un año despues dela prroxima libreria.\\
-Java 11 : En prroduccion es de pago\\
+\section{Comenta sobre el esquema de licencia Java}
+Java 17 : Es gratis LTS.Hasta un año despues de la proxima libreria.\\
+Java 11 : En produccion es de pago\\
 Java 8 : Empieza ser de pago.\\
 Nota : Amazon Coretto es gratis.
 \section{Cambios de java 8 a 11/17}
 Eliminacion de modulos Java EE.\\
-Sintaxis de varriables locales para parametros CORBA en lambdas (@NotNull).\\
+Sintaxis de variables locales para parametros CORBA en lambdas (@NotNull).\\
 Un cliente HTTP (java.net.http).\\
 Ejecucion desde archivo de codigo fuente unico.\\
 Soporte unicode IO.\\
 Nuevos metodos para nuestros Strings : isBlank(),lines(),strrip(),repeat(int).\\
 Lectura y escritura de string en archivos(readString(path),writeString().\\
 Acceso a clases interrnas mediante metodos que usan reflexion.\\
-Eliminacion de codigo no deseable,deprrecables u obsoletos.
+Eliminacion de codigo no deseable,deprecables u obsoletos.
 \section{Programacion funcional}
 Los lenguajes de programacion funcional son aquellos lenguajes donde las variables no tienen estado.
 \section{Streams}
@@ -250,14 +249,14 @@ Patron bus : \\
 Patron MVC : \\
 Patron pizarra : 
 \section{Como activa un perfil}
-En application.prroperrties se agrega : spring.prrofiles.active=dev.\\
+En application.properrties se agrega : spring.prrofiles.active=dev.\\
 La siguiente popiedad en la VM : DSping.profiles.active=dev.
 \section{SPEL}
 Es un lenguaje de expresiones que permite realizar operaciones sobre la informacion en
 tiempo de ejecucion.
 \section{AOP}
 Agrega comportamioento a codigo existente sin necesidad de modificarlo.\\
-Creacion de aspecto,se define un bean de sprring y se anota con @Aspect.Se define
+Creacion de aspecto,se define un bean de spring y se anota con @Aspect.Se define
 el metodo que se ejecutara con el advice.@Before,@AfterReturning,@After.\\
 Nota : Si se tiene multiples advices es posible definir el orden con @Order.
 \section{Peticion HTTP}
@@ -268,7 +267,7 @@ Version del protocolo,status code,headers,body.Status Http:\\
 2xx : Peticion exitosa.\\
 3xx : Redirecciones.\\
 4xx : Error del lado del cliente.\\
-5xx : Error del lado del serrvidor. 
+5xx : Error del lado del servidor. 
 \section{Soporte para REST}
 Se debe incluir el modulo Spring MVC.Mediante la dependencia : \\
 spring-boot-stater-web
@@ -312,9 +311,9 @@ Usar snyk para verificar tus dependencias.\\
 Actualizar la ultima version.\\
 Habilitar proteccion CSRF.\\
 Use estrategias de seguridad de contenido para evitar ataques XSS.
-\section{Security Context Holder}
+\section{Security . Holder}
 Es una clase que permite acceder a la informacion tanto del usuario como del rol.\\
-Nota: Los roles serran modificados por spRing agregando el prefijo ROLE.Ejemplo : ROLE\_ADMIN
+Nota: Los roles seran modificados por spring agregando el prefijo ROLE.Ejemplo : ROLE\_ADMIN
 \section{Global Security Config}
 Clase que permite asegurar a nivel de metodo en esta clase se agrega la notacion @EnableBlobalMethodSecurrity.
 \section{@Secured}
@@ -329,7 +328,7 @@ Nota: Para combinar el uso de las anotaciones de seguridad.\\Ejemplo: @IsUserOrA
 \section{Status HTTP 403}
 El error indica que el usuario tiene una autentificacion exitosa, pero fallo al realizar la autorizacion.
 \section{S.O.L.I.D.}
-S Principio de responsabilidad unica : Un obejeto deberria tener una unica razon para cambiar. \\
+S Principio de responsabilidad unica : Un obejeto deberia tener una unica razon para cambiar. \\
 O Principio de abierto o cerrado : Las entidades de software deben estar abiertas para su extension, pero cerrados para su modificacion.\\
 L Principio de sustitucion de Liskov : Los objetos de un programa deberia ser reemplazables por instancias de sus subtipos
 sin alterar el correcto funcionamiento del programa. \\
@@ -344,7 +343,7 @@ Artifactory es un Repositorio de Maven. En el se pueden desplegar las dependenci
   Soporte para múltiples repositorios locales.
 \section{Sonar Cube}
 Se puede ver la calidad del codigo.Analiza,hace test,auditoria.No se recomienda usar la BD embebida.
-\section{Jenkins,jmeter}
+\section{Jenkins4}
 Jenkins ayuda en la automatización de parte del proceso de desarrollo de software mediante integración continua y facilita ciertos aspectos de la entrega continua. Admite herramientas de control de versiones como CVS, Subversion, Git, Mercurial y puede ejecutar proyectos basados en Apache Ant y Apache Maven.
 \section{Streams que mas has usado.Map}
 Agrupacion de elementos sobrelos que podemos especificar operaciones.\\
@@ -373,8 +372,8 @@ Reunion Sprint Planning Meeting.
 Resultado de esta reunion se tiene el Sprint Backlog,son conjuntos de requisitos que se deben cumplir en una o 4 semanas.(Este tiempo es el SPRINT)\\
 En el SPRINT intervienen el scrum master y team developer .\\
 Los Daily son los seguimientos diarios no deben durar mas de 15 min.\\
-Al final de un SPRINT se hace una reunion llamada sprint review(ScrumMaster,Team developer y product owner),se revisa la entrega o el producto invremental.\\
- Despuees de entregar el producto se hace una reunion Sprint Retrospective.Mejoras o problemas\\
+Al final de un SPRINT se hace una reunion llamada sprint review(ScrumMaster,Team developer y product owner),se revisa la entrega o el producto incremental.\\
+ Despues de entregar el producto se hace una reunion Sprint Retrospective.Mejoras o problemas\\
  \section{Patrones de microservicios}
  Patron Saga: Es una secuencia de transacciones locales donde cada transacci\'on  actualiza informaci\'on 
  dentro de un servicio.
@@ -406,18 +405,151 @@ Al final de un SPRINT se hace una reunion llamada sprint review(ScrumMaster,Team
        nuestra aplicaci\'on en distintas capas o regiones con su propia responsabilidad. De esta manera consigue
         desacoplar capas de nuestra aplicaci\'on permitiendo que evolucionen de manera aislada. Adem\'as, tener 
         el sistema separado por responsabilidades nos facilitar\'a la reutilizaci\'on.
+\section{Arquitectura en Microservicios y EventSource}
+El patrón Event Sourcing es una técnica de diseño de software que consiste en almacenar
+ un registro secuencial de todos los cambios que ocurren en el estado de una aplicación 
+ como una secuencia de eventos inmutables. Cada evento representa un cambio único y atómico
+  en el estado de la aplicación y se almacena de manera secuencial en un registro de eventos,
+   generalmente llamado "log de eventos" o "journal". Este enfoque permite reconstruir el estado
+    actual de la aplicación en cualquier punto en el tiempo mediante la reproducción de todos los
+     eventos desde el inicio hasta el momento deseado.
+     
+Ventajas de Event Sourcing
+Auditoría y seguimiento: proporciona un registro completo de todas las acciones y cambios realizados en la aplicación, lo que facilita la auditoría y el seguimiento.
+Reproducibilidad: permite reproducir el estado de la aplicación en cualquier momento y facilita la resolución de problemas y la depuración.
+Flexibilidad y evolución: permite agregar nuevas funcionalidades retrospectivamente y adaptarse a cambios en los requisitos del negocio mediante la introducción de nuevos tipos de eventos.
+Consistencia y atomicidad: los eventos son atómicos y se aplican de manera consistente, lo que garantiza la integridad del estado de la aplicación.
+
+Desafíos del patrón Event Sourcing
+Complejidad de implementación: la implementación de Event Sourcing puede ser más compleja que otros enfoques tradicionales debido a la necesidad de gestionar el registro de eventos y la reconstrucción del estado de la aplicación.
+Escalabilidad del registro de eventos: el tamaño del registro de eventos puede crecer considerablemente con el tiempo, lo que puede plantear desafíos en términos de almacenamiento y rendimiento.
+Consistencia eventual: la reconstrucción del estado de la aplicación a partir de eventos puede llevar tiempo, lo que puede resultar en una consistencia eventual en lugar de una consistencia inmediata.
+Modelado de eventos: requiere un diseño cuidadoso del modelo de eventos para representar de manera precisa todos los cambios relevantes en el estado de la aplicación.
+
+En resumen, el patrón Event Sourcing es una técnica poderosa para gestionar el estado de una aplicación de manera eficiente y escalable. Si se implementa correctamente, puede proporcionar una mayor transparencia, flexibilidad y capacidad de evolución en comparación con otros enfoques más tradicionales. Sin embargo, también presenta desafíos en términos de complejidad de implementación y escalabilidad del registro de eventos.
+\section{Azure Storage}
+Azure Storage es una solución de almacenamiento en la nube, proporcionada por Microsoft,
+ que le permite almacenar y acceder a los datos en la nube. Ofrece un almacenamiento de alta
+  disponibilidad y masivamente escalable, en forma de cinco servicios de almacenamiento diferentes: archivos, blobs, colas, tablas y discos.
+\section{Azure Key Vault}
+Es un servicio en la nube que proporciona un almacenamiento seguro de secretos. Puede almacenar de forma segura claves, contraseñas, certificados y otros secretos. Los almacenes de claves de Azure se pueden crear y administrar a través de Azure Portal.
+\section{Azure  SQL Database}
+Está disponible como una base de datos única con su propio conjunto de recursos administrados a través de un servidor lógico y como una base de datos agrupada en un grupo elástico de , con un conjunto compartido de recursos administrados a través de un servidor lógico.
+Basado en el conocido motor SQL Server , Azure SQL le permite utilizar las herramientas, los lenguajes y los recursos que conoce.
+Azure SQL es un servicio de base de datos relacional totalmente administrado creado para la nube de Azure . Cree su próxima aplicación con la ayuda de una base de datos SQL completamente administrada con capacidades de inteligencia artificial integradas, escalado automático y copias de seguridad.
+\section{Azure Kubernetes}
+Azure Kubernetes Service (AKS) es un servicio de Kubernetes administrado de Microsoft Azure que tiene como objetivo simplificar la implementación y la administración de clústeres de Kubernetes .
+Kubernetes es responsable de trasladar y entregar las cajas de forma segura a las ubicaciones en las que puedan usarse.
+Kubernetes es un software de orquestación de código abierto que proporciona una API para controlar cómo y dónde se ejecutarán esos contenedores . Le permite ejecutar sus contenedores y cargas de trabajo de Docker y lo ayuda a abordar algunas de las complejidades operativas al pasar a escalar múltiples contenedores, implementados en varios servidores.
+\section{Azure APIM}
+Azure API Management es una plataforma totalmente integrada que permite a las empresas crear, publicar, proteger y analizar las API. Al actuar como un portal, permite a las empresas controlar el acceso, supervisar el uso y proteger tus API de posibles amenazas.
+Azure API Management es una plataforma de gestión híbrida y multicloud para API en todos los entornos . Como plataforma como servicio, API Management admite el ciclo de vida completo de las API. 
+\section{Azure Functions}
+Azure Functions, en su modo básico, es un servicio Serverless ofrecido por Microsoft con las siguientes características:
+Permiten ejecutar cargas de trabajo on-demand y en respuesta a eventos o event-driven: peticiones HTTP externas, eventos recibidos de otros servicios de Azure, alertas de monitorización, eventos programados con tareas cron, etc.
+Proporcionan escalado y desescalado de recursos elástico de forma automática, rápida y transparente al cliente consumidor. Permiten de dar soporte a picos de demanda, volviendo a estados anteriores cuando las peticiones decrecen.
+Típicamente ejecutadas en un escenario stateless o sin estado, es decir, entre diferentes ejecuciones las funciones no almacenan ni utilizan información de estado. Los entornos de ejecución se crean, se ponen a disposición del código del cliente y se destruyen. No hay posibilidad de almacenar y recuperar información entre peticiones.
+Cuanto más rápido termine la función, menor es el coste. Por tanto, encajan muy bien en entornos en los que el código de las funciones es pequeño, específico (single-purpose) y de corta duración.
+El proveedor Cloud necesita un tiempo para provisionar los recursos antes de que la función se ejecute. Se denomina cold-start.
+Este tipo de servicio se conoce también como FaaS o Function as a Service.
+\section{Azure REDIS Cache}
+Azure Cache for Redis, un agente de mensajería y memoria caché de datos segura que proporciona a las aplicaciones un acceso de alto rendimiento y baja latencia a los datos. 
+\section{Patrones de diseno Factory}
+Patron creacional factory permite desacoplar la lógica de creación de forma centralizada. Responsable
+de crear objetos evitando exponer la lógica de instanciación al cliente.
+proporciona una interfaz para crear objetos en una superclase, mientras permite a las subclases alterar el tipo de objetos que se crearán.
+\section{Patrones microservicios saga}
+Secuencia de transacciones que actualiza cada servicio y publica un mensaje o evento para desencadenar
+ el siguiente paso de la transacción. Si se produce un error en un paso, la saga ejecuta transacciones
+  de compensación que contrarrestan las transacciones anteriores.
+  \section{Microservicios Patron de Orquestacion y coreografia}
+  El patrón de coreografía en la arquitectura de microservicios es un enfoque descentralizado para coordinar
+   la interacción entre servicios.En lugar de depender de un orquestador central que controla el flujo de 
+   trabajo, cada microservicio colabora con otros emitiendo y respondiendo a eventos.
+  Con la orquestación, la lógica de control reside en un controlador central, mientras que con la coreografía, las interacciones están descentralizadas y cada componente es responsable de gestionar su parte del flujo de trabajo.
+  \section{Microservicios Patrones}  
+  Database per Microservice\\
+  Event Sourcing\\
+  CQRS\\
+  BFF\\
+  API Gateway\\
+  Strangler.\\
+  Circuit Breaker\\
+  Externalized Configuration\\
+  Consumer-Driven Contract Tracing\\
+    \section{DDD}  
+  El Domain-Driven Design (DDD) no es una tecnología ni una metodología, sino una práctica de desarrollo de software con necesidades complejas, que sitúa el Dominio del Negocio como faro del proyecto y en su Modelo, como herramienta de comunicación entre negocio y tecnología.
+  \section{ Comandos basicos Kubernetes}
+  La siguiente lista es un recopilatorio de comandos basicos para poder obtener la información que necesitamos acerca de lo que ocurre en nuestro cluster de kubernetes:\\
+  información del cluter
+  kubectl cluster-info 
+  
+   lista de los nodos del cluster\\
+  kubectl get nodes  
+  
+   lista de los servicios \\
+  kubectl get service 
+  
+   lista de los pods\\
+  kubectl get pods   
+  
+   lista de deployments \\
+  kubectl get deployments 
+  
+   lista de namespaces\\
+  kubectl get namespaces 
+  
+   lista de los pods del namespace prueba\\
+  kubectl get pods -n prueba  
+  
+   exponer un deployment\\
+  kubectl expose deployment first-deployment --port=80 --type=NodePort 
+  
+   información detallada del pod apache1 \\
+  kubectl describe pod apache1  
+  
+   eliminar servicio\\
+  kubectl delete service hello-world  
+  
+   eliminar deployment\\
+  kubectl delete deployment hello-world  
+  
+   escalar a 3 replicas un deployment\\
+  kubectl scale --replicas=3 deployment prestashop -n prestashop
+  
+   acceder al pod ubuntu-test  \\
+  kubectl --namespace=enmilocalfunciona exec -it ubuntu-test bash  
+  
+   crear un secret\\
+  kubectl create secret generic mysql-pass --from-literal=password=mypassword 
+  
+   aplicar el contenido del fichero deployment.yaml  \\
+  kubectl apply -f deployment.yaml 
+  
+   listar los tokens \\
+  kubeadm token list  
+  
+   agregar nodo al cluster\\
+  kubeadm join --discovery-token-unsafe-skip-ca-verification --token=102952.1a7dd4cc8d1f4cc5 172.17.0.52:6443  
+  
+\section{cosmoDB}
+\section{Azure VM}
+\section{ ciclo de vida de pod services, comandos en pods, usando la CLI de Azure, troubleshooting}
+\section{API Gateway}
+\section{IntegraciOn y despliegue continuo con herramientas: (Jenkins y Kubernetes)}
+\section{ Junit 5 y Mockito : Uso de Asserts, anotaciones Mock, Test, InjectMock, webClientTest}
+\section{Clean Code y Principios Solid}
+\section{ Key cloak}
+\section{Kubernetes docker}
+\section{TDD Karate}
 \section{RxJava}
-\section{AKS,funcions,cosmoDB}
+\section{xsd y definicion wsdl, xquery}
+\section{ Eureka api getway Zeull}
 \section{Circuit Breaker}
 \section{Programacion reactiva como lo has usado,dependencias}
-
-\section{Pruebas de test unitario,mockito}
 \section{Webflux}
-\section{Bitbacket}
-\section{Spring Cloud Config server}
-\section{Spring Security}
 \section{MongoDB}
-\section{Monitoreo Kibana,prometheus,grafena,new relic}
+\section{Monitoreo Kibana,prometheus,grafena,dinatrace,new Relic}
 \section{git privacy}
-\section{Jenkins, Prometheus, Grafana, Logstash, Kibana, Fluentd}
+\section{Jenkins, Logstash, Kibana, Fluentd}
 \section{ORM}
